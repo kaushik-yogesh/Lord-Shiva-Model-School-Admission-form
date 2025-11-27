@@ -107,7 +107,9 @@
 <body>
     <div class="form-container">
         <div class="topHeading" style="text-align:center;">
-            <img class="img" src="https://res.cloudinary.com/dh6uiegxw/image/upload/v1764227827/WhatsApp_Image_2025-10-08_at_3.46.01_PM-removebg-preview_d01j3z.png" alt="logo">
+            <img class="img"
+                src="https://kaushik-yogesh.github.io/Lord-Shiva-Model-School-Admission-form/public/logo.png"
+                alt="logo">
             <h1>Lord Shiva Model School</h1>
         </div>
 
@@ -180,7 +182,7 @@
             //     method: "POST",
             //     body: JSON.stringify(formData)
             // })
-            fetch("https://script.google.com/macros/s/AKfycbzpqvWdgtCPevZ_wb2aumjcxAHd29g9Jq89b0cNyx5cYwk-zENPKxjgdnwWygHXfdN6/exec", {
+            fetch("https://script.google.com/macros/s/AKfycbwuMxHRM0iIXAyVYXFD92CS-JIdKt8GP_h5foEaE_QVAJrR-VtoIbqpOSK18RcPJ_LC/exec", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 mode: "no-cors",
@@ -189,7 +191,7 @@
 
                 .then((res) => {
                     res.json();
-                     alert("Form sumbit successfully")
+                    alert("Form sumbit successfully")
                 })
                 // .then(data => {
                 //     console.log(data)
@@ -198,7 +200,7 @@
                 // })
                 .catch((err) => {
                     console.log(err)
-                    // alert("Error: " + err);
+                    alert("Error: " + err);
                 });
         });
     </script>
