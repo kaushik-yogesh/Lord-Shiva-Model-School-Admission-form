@@ -189,12 +189,13 @@
 
                 .then((res) => {
                     res.json();
+                     alert("Form sumbit successfully")
                 })
-                .then(data => {
-                    console.log(data)
-                    alert("Form submitted! Your Registration ID is: " + data.regID);
-                    //document.getElementById("admissionForm").reset();
-                })
+                // .then(data => {
+                //     console.log(data)
+                //     alert("Form submitted! Your Registration ID is: " + data.regID);
+                //     //document.getElementById("admissionForm").reset();
+                // })
                 .catch((err) => {
                     console.log(err)
                     alert("Error: " + err);
